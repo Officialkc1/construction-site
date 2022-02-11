@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    min-height: 20%;
+    background: url(./images/real-bgci.jpg) no-repeat center top fixed; 
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: #3b3a3a91;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    color: white;
+    font-size: larger;
+    gap: 20px;
+    margin: 30px;
+    padding: 50px;
+}
+
+.quote-card {
+    background-color: #F28808;
+    height: 110%;
+    width: 60%;
+    margin: 80px;
+    border: none;
+    border-radius: 10px;
+    font-family: Times New Roman;
+    font-size: small;
+
+}
+
+form {
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    position: relative;
+}
+
+form h1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+form p {
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+form label {
+    padding: 10px;
+    background-color: white;
+}
+
+.big-text {
+    padding: 30px;
+}
+
+form label input {
+    padding: 8px;
+    border: none;
+    outline: unset;
+    background-color: transparent;
+}
+
+form button {
+    align-self: center;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2DB0ED;
+    cursor: pointer;
+}
+
+form button a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+form h3 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+.text-card {
+    font-size: 25px;
+    backdrop-filter: blur(2px);
+    position: relative;
+    /* text-align: center; */
+    color: white;
+    padding: 20px;
+    background-color: transparent;
+    padding-bottom: 30px;
+    position: relative;
+    font-weight: 500;
+    width: 100%;
+}
+
+.text-card p {
+    display: flex;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+    color: whitesmoke;
+    backdrop-filter: blur(2px);
+}
+
+section {
+    position: relative;
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    gap: 10px;
+    background-size: cover;
+}
+
+.about_us {
+    font-size: larger;
+    font-family: georgia;
+    position: relative;
+    text-align: center;
+    padding: 60px;
+    width: 100%;
+    gap: 20px;
+}
+
+.about_us h1 {
+    font-family: Verdana;
+    font-weight: 800;
+    font-stretch:extra-expanded;
+    padding: 20px;
+    
+}
+
+.about_us h4 {
+    font-weight: 600;
+    color: #2423239c;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    /* margin-left: 300px; */
+    border-top: 1px solid #F28808;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+}
+
+.commercial {
+    border: 1px solid red;
+}
+
+
+
+
+
+
