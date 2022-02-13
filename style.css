@@ -135,7 +135,7 @@ form h3 {
 
 section {
     position: relative;
-    background-color: #fff;
+    background-color: #f1f1f1;
     position: relative;
     width: 100%;
     gap: 10px;
@@ -174,19 +174,20 @@ section {
 }
 
 .services {
+    font-size: larger;
+    font-family: georgia;
+    position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 60px;
     width: 100%;
-    padding: 50px;
+    gap: 20px;
 }
 
-.commercial {
-    border: 1px solid red;
+.service-h1 {
+    font-family: Verdana;
+    /* font-weight: 800; */
+    padding: 20px;
 }
-
-
-
-
-
 
