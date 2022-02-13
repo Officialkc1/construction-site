@@ -244,7 +244,7 @@ section {
 .residential a {
     text-decoration: none;
 }
- .commercial a h3:hover {
+ .residential a h3:hover {
     color: #2DB0ED;
  }
 
