@@ -173,16 +173,28 @@ section {
     border-top: 1px solid #F28808;
 }
 
+.about_us p{
+    padding: 20px;
+    margin: 20px;
+}
+
 .services {
     font-size: larger;
     font-family: georgia;
     position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 60px;
     width: 100%;
     gap: 20px;
+    text-align: center;
+}
+
+.services .card-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #F28808;
+    margin: 10px;
+    /* background-color: white; */
 }
 
 .service-h1 {
@@ -191,3 +203,93 @@ section {
     padding: 20px;
 }
 
+.commercial {
+    width: 50%;
+    padding: 40px;
+    margin: 20px;
+    align-content: center;
+    background-color: white;
+}
+
+.commercial a {
+    text-decoration: none;
+}
+ .commercial a h3:hover {
+    color: #2DB0ED;
+ }
+
+ .commercial a h3 {
+    padding: 10px;
+    color: black;
+ }
+
+ .commercial p {
+    color: rgb(110, 110, 121);
+ }
+
+ .commercial p a {
+    color: blue;
+    font-size: 15px;
+    padding: 5px;
+ }
+
+ .residential {
+    width: 50%;
+    padding: 40px;
+    margin: 20px;
+    align-content: center;
+    background-color: white;
+}
+
+.residential a {
+    text-decoration: none;
+}
+ .commercial a h3:hover {
+    color: #2DB0ED;
+ }
+
+ .residential a h3 {
+    padding: 10px;
+    color: black;
+ }
+
+ .residential p {
+    color: rgb(110, 110, 121);
+ }
+
+ .residential p a {
+    color: blue;
+    font-size: 15px;
+    padding: 5px;
+ }
+
+
+ .industrial {
+    width: 50%;
+    padding: 40px;
+    margin: 20px;
+    align-content: center;
+    background-color: white;
+}
+
+.industrial a {
+    text-decoration: none;
+}
+ .industrial a h3:hover {
+    color: #2DB0ED;
+ }
+
+ .industrial a h3 {
+    padding: 10px;
+    color: black;
+ }
+
+ .industrial p {
+    color: rgb(110, 110, 121);
+ }
+
+ .industrial p a {
+    color: blue;
+    font-size: 15px;
+    padding: 5px;
+ }
