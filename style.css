@@ -43,7 +43,6 @@ html {
     border-radius: 10px;
     font-family: Times New Roman;
     font-size: small;
-
 }
 
 form {
@@ -70,7 +69,6 @@ form p {
     position: relative;
     text-align: center;
     padding: 10px;
-    
 }
 
 form label {
@@ -83,6 +81,7 @@ form label {
 }
 
 form label input {
+    width: 100%;
     padding: 8px;
     border: none;
     outline: unset;
@@ -98,11 +97,13 @@ form button {
     cursor: pointer;
 }
 
+
 form button a {
     color: white;
     text-decoration: none;
     font-size: 15px;
 }
+
 
 form h3 {
     display: flex;
@@ -110,6 +111,7 @@ form h3 {
     padding: 20px;
     font-style: italic;
 }
+
 
 .text-card {
     font-size: 25px;
@@ -125,6 +127,7 @@ form h3 {
     width: 100%;
 }
 
+
 .text-card p {
     display: flex;
     padding: 10px;
@@ -132,6 +135,7 @@ form h3 {
     color: whitesmoke;
     backdrop-filter: blur(2px);
 }
+
 
 section {
     position: relative;
@@ -142,6 +146,7 @@ section {
     background-size: cover;
 }
 
+
 .about_us {
     font-size: larger;
     font-family: georgia;
@@ -151,6 +156,7 @@ section {
     width: 100%;
     gap: 20px;
 }
+
 
 .about_us h1 {
     font-family: Verdana;
@@ -178,6 +184,7 @@ section {
     margin: 20px;
 }
 
+
 .services {
     font-size: larger;
     font-family: georgia;
@@ -188,6 +195,7 @@ section {
     text-align: center;
 }
 
+
 .services .card-list {
     display: flex;
     justify-content: space-between;
@@ -196,6 +204,7 @@ section {
     margin: 10px;
     /* background-color: white; */
 }
+
 
 .service-h1 {
     font-family: Verdana;
@@ -214,24 +223,30 @@ section {
 .commercial a {
     text-decoration: none;
 }
+
+
  .commercial a h3:hover {
     color: #2DB0ED;
- }
+}
+
+
 
  .commercial a h3 {
     padding: 10px;
     color: black;
- }
+}
+
+
 
  .commercial p {
     color: rgb(110, 110, 121);
- }
+}
 
  .commercial p a {
     color: blue;
     font-size: 15px;
     padding: 5px;
- }
+}
 
  .residential {
     width: 50%;
@@ -244,24 +259,32 @@ section {
 .residential a {
     text-decoration: none;
 }
+
+
  .residential a h3:hover {
     color: #2DB0ED;
- }
+}
+
+
 
  .residential a h3 {
     padding: 10px;
     color: black;
- }
+}
+
+
 
  .residential p {
-    color: rgb(110, 110, 121);
- }
+    color: #6e6e79;
+}
+
+
 
  .residential p a {
     color: blue;
     font-size: 15px;
     padding: 5px;
- }
+}
 
 
  .industrial {
@@ -275,21 +298,32 @@ section {
 .industrial a {
     text-decoration: none;
 }
+
+
  .industrial a h3:hover {
     color: #2DB0ED;
- }
+}
+
+
+
 
  .industrial a h3 {
     padding: 10px;
     color: black;
- }
+}
+
+
+
 
  .industrial p {
     color: rgb(110, 110, 121);
- }
+}
+
+
+
 
  .industrial p a {
     color: blue;
     font-size: 15px;
     padding: 5px;
- }
+}
